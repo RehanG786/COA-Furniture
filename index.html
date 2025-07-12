@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FurnitureHub ∞ 2085 Collection</title>
+
+  <!-- Core styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Outfit + Orbitron: classy + sci‑fi -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Orbitron:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- GSAP + ScrollTrigger for buttery animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.2/ScrollTrigger.min.js" defer></script>
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/a2d9a527b0.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+  <!-- ─── 1 ▸ NAVBAR ───────────────────────────── -->
+  <header class="navbar">
+    <div class="logo">COA<span> FURNITURE STUDIO</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ─── 2 ▸ HERO / LANDING ───────────────────── -->
+  <section id="home" class="hero">
+    <div class="stars"></div> <!-- subtle moving particles -->
+    <div class="hero-content">
+      <h1 class="glow">Furniture for <span>Future‑Living</span></h1>
+      <p>“Design studio crafting quiet furniture for clear spaces.”</p>
+      <button onclick="smoothScroll('#collection')">Contact Now &nbsp;<i class="fas fa-arrow-right"></i></button>
+    </div>
+  </section>
+
+  <!-- ─── 3 ▸ SIGNATURE COLLECTION ─────────────── -->
+  <section id="collection" class="products">
+    <h2 class="section‑title">Signature Collection</h2>
+    <div class="product-grid">
+      <!-- four hero items -->
+      <article class="product-card">
+        <img src="https://i5.walmartimages.com/asr/c6dfe66a-e7cf-4617-9c06-bd7e05408358_1.539e853124248d14b8ff8cfc1f8f5a40.jpeg" alt="Neo Chair" />
+        <h3>Wooden Chair</h3><p class="price">$299</p>
+      </article>
+
+      <article class="product-card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.T4n9bl311l1NJdoPr4IiiAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Holo Table" />
+        <h3>Dining Table</h3><p class="price">$549</p>
+      </article>
+
+      <article class="product-card">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.-mV8eZ62vQbFlZ3G6msEWAHaD9?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Echo Sofa" />
+        <h3>Grey Sofa</h3><p class="price">$999</p>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i5.walmartimages.com/asr/08b80719-93eb-4230-83c7-172f1121c4ad.71f43a0ee3d087436811d6ac0b341f49.jpeg" alt="Zen Bed" />
+        <h3>Bed</h3><p class="price">$799</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ─── 4 ▸ ABOUT US ─────────────────────────── -->
+  <section id="about" class="about">
+  <h2 class="section‑title">About COA Furniture Studio</h2>
+
+  <div class="about‑wrap">
+    <div class="about‑text">
+      <p><span class="highlight">Founded in 2025</span> in Mumbai, India, COA Furniture Studio was built on a simple idea:
+      create honest furniture that brings clarity, calm, and character into everyday spaces.</p>
+
+      <p>Our work blends timeless design principles with natural materials, emphasizing balance, proportion, and silence.
+      Every piece is made with purpose — slow-crafted, detail-led, and designed to last.</p>
+
+      <p>At COA, we believe great furniture doesn’t shout. It shapes the room, quietly.</p>
+    </div>
+
+    <figure class="about‑image">
+      <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=900&q=80" alt="COA Studio" />
+      <figcaption>Our Mumbai-based studio, where every piece begins.</figcaption>
+    </figure>
+  </div>
+</section>
+
+  <!-- ─── 5 ▸ TECH / FEATURES ──────────────────── -->
+  <section id="details" class="tech">
+  <h2 class="section‑title">Details That Matter</h2>
+  <div class="tech‑grid">
+    <div class="tech‑card">
+      <i class="fas fa-tree"></i>
+      <h3>Solid Wood</h3>
+      <p>We use responsibly sourced, full-grain hardwood — no MDF, no shortcuts.</p>
+    </div>
+    <div class="tech‑card">
+      <i class="fas fa-brush"></i>
+      <h3>Hand-Finished</h3>
+      <p>Each piece is finished by hand for depth, texture, and timeless character.</p>
+    </div>
+    <div class="tech‑card">
+      <i class="fas fa-balance-scale"></i>
+      <h3>Proportional Design</h3>
+      <p>We design for human scale — every curve and line meant to feel right.</p>
+    </div>
+    <div class="tech‑card">
+      <i class="fas fa-recycle"></i>
+      <h3>Sustainable Practice</h3>
+      <p>From materials to packaging, we minimize waste and maximize purpose.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- ─── 6 ▸ CONTACT / CTA ────────────────────── -->
+  <section id="contact" class="contact">
+    <h2 class="section‑title">Reach Out</h2>
+    <p class="subtitle">Let’s craft your dream space.</p>
+
+    <div class="contact‑grid">
+      <div class="contact‑info">
+        <p><i class="fas fa-envelope"></i> hello@coafurniturestudio.com</p>
+        <p><i class="fas fa-phone"></i> +91&nbsp;98765&nbsp;43210</p>
+        <p><i class="fas fa-location-dot"></i> Mumbai, Maharastra, India </p>
+      </div>
+
+      <form class="contact‑form" onsubmit="event.preventDefault()">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea rows="4" placeholder="Tell us about your project…"></textarea>
+        <button type="submit">Send <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─── 7 ▸ FOOTER ───────────────────────────── -->
+  <footer>
+    <p>&copy; Copyright @2025 COA. | Made By SkyTech Info Solutions |</p>
+  </footer>
+
+  <!-- scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
